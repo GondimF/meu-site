@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    background: linear-gradient(to bottom, #004e92, #000428);
+    margin-top: 20px;
+    display: grid;
+    justify-content: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+    line-height: 1.6;
+}
+
+header {
+    justify-content: center;
+    border-radius: 8px;
+    color: whitesmoke;
+    margin-bottom: 1rem;
+    text-align: center;
+}
+
+#p-inicio {
+    max-width: 1000px;
+    width: 100%;
+}
+
+li {
+    margin: 0 1rem;
+}
+
+li a {
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+h1 {
+    margin: 1rem 0;
+}
+
+
+section {
+    max-width: 1000px;
+    width: 95%;
+    margin: 1rem auto;
+    padding: 1rem;
+    background-color: whitesmoke;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.7);
+    color: black;
+    font-weight: bold;
+}
+
+#p-section {
+    margin: 1rem 0;
+    padding: 0 1rem;
+    color: rgb(0, 51, 99);
+}
+
+section img {
+    margin: 10px;
+    max-width: 500px;
+    width: 100%;
+    border-radius: 8px;
+}
+
+h2 {
+    color: rgb(9, 66, 121);
+    margin-bottom: 1rem;
+    text-align: center;
+}
+
+li {
+    margin-bottom: 0.5rem;
+    list-style: inside;
+    list-style-image: url(../icons/seta-lista.png);
+}
+
+footer {
+    justify-content: center;
+    color: whitesmoke;
+    padding: 1rem;
+}
+
+footer p {
+    max-width: 500px;
+    width: 100%;
+    margin: 30px auto 0px auto;
+}
+
+footer a {
+    display: inline-block;
+    text-decoration: none;
+    margin: 0 auto 20px auto;
+    padding: 10px 20px;
+    text-transform: uppercase;
+    border-radius: 8px;
+    font-size: 17px;
+    font-weight: 500;
+    color: #ffffff80;
+    text-shadow: none;
+    background: transparent;
+    cursor: pointer;
+    box-shadow: transparent;
+    border: 1px solid #ffffff80;
+    transition: 300ms ease;
+    user-select: none;
+}
+  
+footer a:hover, :focus {
+    color: #ffffff;
+    background: #004e92;
+    border: 1px solid #004e92;
+    text-shadow: 0 0 5px #ffffff, 0 0 10px #ffffff, 0 0 20px #ffffff;
+    box-shadow: 0 0 5px #004e92, 0 0 20px #004e92, 0 0 50px #004e92, 0 0 100px #004e92;
+}
